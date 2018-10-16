@@ -80,8 +80,8 @@ paypal.payment.execute(paymentId, execute_payment_json, function (error, payment
         throw error;
     } else {
         console.log("Get Payment Response");
-        const paymentobj =  JSON.stringify(payment);
-        console.log(typeof JSON.parse(paymentobj))
+        const paymentobj =   (payment);
+  
         res.render('success', 
         {	
         	paymentobj: paymentobj 
