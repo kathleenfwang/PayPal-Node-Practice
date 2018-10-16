@@ -1,8 +1,6 @@
 <h1> Your order has been successful! </h1> 
 <h2> Order Details: </h2> 
 
-Order ID: <%= paymentobj['id'] %>   
-Payer info: 
-<% for (var key in paymentobj.payer_info) { %> 
-	<%= key %> : <%= paymentobj.payer_info[key] %> 
- <% } %> 
+<p> Order ID: <%= paymentobj.id %> </p> 
+
+<p> Thank you for your order! Check your email at <%= paymentobj.payer.payer_info.email %> to receive updates on your order! </p>
