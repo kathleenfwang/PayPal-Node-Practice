@@ -7,11 +7,17 @@
 	<title> PayPal Node App </title> 
 </head> 
 <body> 
-	<h3> <%= test %> 
-	<h1> Supreme Hat </h1> 
-	<h2> Buy for $25 </h2> 
-<form action ="/pay" method = "post"> 
-<input type ="submit" value = "Buy">  
-</form> 
+<h1> Welcome! </h1> 
+
+<h2> Supreme Hat: $100 </h2> 
+<img src ="https://cf.shopee.com.my/file/19d5588b77f6d955461d0ec4460cf28d"> 
+<h3> <em> Sold out online! </em> </h3> 
+
+<form action ="/pay" method ="POST"> 
+
+	<input type ="submit" value = "Buy now!"> 
+</form>
+
+<p> Note: Clicking "Buy now!" will redirect you to PayPal to complete the purchase. </p>
 </body> 
 </html> 
