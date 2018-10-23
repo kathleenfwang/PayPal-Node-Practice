@@ -1,6 +1,6 @@
 # PayPal-Node-Practice
 
-Practice app using PayPal's Node SDK to purchase a mock item. 
+Node.js app using PayPal's Node SDK to purchase a mock item while utilizing form request. 
 
 ### Clone or download this repository
 
